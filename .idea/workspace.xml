@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="59c76a29-2a50-420f-9210-aa00cecf3154" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/main/activity/home/HomeAcitivty.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/main/activity/home/HomeCallBack.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/main/activity/home/HomeViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/main/activity/login/LoginCallBack.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/main/activity/splash/SplashActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/main/activity/splash/SplashCallBack.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/main/activity/splash/SplashViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/main/fragment/check_register/CheckRegisterCallBack.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/main/fragment/check_register/CheckRegisterFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/main/fragment/check_register/CheckRegisterViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/main/fragment/signin/SigninCallBack.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/main/fragment/signin/SigninFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/main/fragment/signin/SigninViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/main/fragment/signup/SignupCallBack.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/main/fragment/signup/SignupFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/main/fragment/signup/SignupViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/main/fragment/user/UserCallBack.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/utils/Utils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/custom_btn_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/custom_btn_login_gradient.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/custom_layout_signup.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/custom_layout_sinup_apple.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/google.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_help_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_check_register.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_signin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_signup.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/cuongpq/basemvvm/ExampleInstrumentedTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/trinity/basemvvm/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/common/Constants.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/common/Constants.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/common/MVVMApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/common/MVVMApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/common/eventbus/ActionBus.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/common/eventbus/ActionBus.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/common/eventbus/BaseAction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/common/eventbus/BaseAction.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/common/eventbus/Bus.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/common/eventbus/Bus.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/common/eventbus/ElementBus.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/common/eventbus/ElementBus.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/data/local/AppDatabase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/data/local/AppDatabase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/data/local/dao/UserDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/data/local/dao/UserDao.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/data/model/User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/data/model/User.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/data/model/api/IBaseResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/data/model/api/IBaseResponse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/data/model/api/UserResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/data/model/api/UserResponse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/data/remote/ApiHelp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/data/remote/ApiHelp.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/data/remote/ApiUser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/data/remote/ApiUser.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/data/remote/InteractCommon.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/data/remote/InteractCommon.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/di/annotation/ApplicationContext.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/di/annotation/ApplicationContext.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/di/annotation/DatabaseInfo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/di/annotation/DatabaseInfo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/di/builder/ActivityBuilderModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/di/builder/ActivityBuilderModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/di/builder/FragmentBuilderModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/di/builder/FragmentBuilderModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/di/builder/ViewModelModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/di/builder/ViewModelModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/di/component/AppComponent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/di/component/AppComponent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/di/model/AppModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/di/model/AppModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/di/model/ViewModelFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/di/model/ViewModelFactory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/di/model/ViewModelKey.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/di/model/ViewModelKey.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/ui/base/AnimationScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/base/AnimationScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/ui/base/BaseViewUI.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/base/BaseViewUI.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/ui/base/SingleLiveData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/base/SingleLiveData.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/ui/base/activity/BaseActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/base/activity/BaseActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/ui/base/activity/BaseMVVMActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/base/activity/BaseMVVMActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/ui/base/activity/ViewActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/base/activity/ViewActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/ui/base/callback/BaseCallBack.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/base/callback/BaseCallBack.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/ui/base/fragment/BaseFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/base/fragment/BaseFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/ui/base/fragment/BaseMvvmFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/base/fragment/BaseMvvmFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/ui/base/fragment/ViewFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/base/fragment/ViewFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/ui/base/viewmodel/BaseViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/base/viewmodel/BaseViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/ui/customview/MyGlide.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/customview/MyGlide.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/ui/customview/ProgressRelative.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/customview/ProgressRelative.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/ui/main/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/main/activity/login/LoginActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/ui/main/MainCallBack.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/ui/main/MainViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/main/activity/login/LoginViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/ui/main/user/UserAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/main/fragment/user/UserAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/ui/main/user/UserCallBack.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/ui/main/user/UserFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/main/fragment/user/UserFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/ui/main/user/UserViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/main/fragment/user/UserViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/ui/utils/LoadDataBinding.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/utils/LoadDataBinding.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/ui/utils/OpenFragmentUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/utils/OpenFragmentUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/ui/utils/StringUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/utils/StringUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/ui/utils/permission/ConfirmDialog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/utils/permission/ConfirmDialog.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/ui/utils/permission/PermissionGrantUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/utils/permission/PermissionGrantUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cuongpq/basemvvm/ui/utils/permission/SharedPfPermissionUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/utils/permission/SharedPfPermissionUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_back.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_back.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_user.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_user.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/cuongpq/basemvvm/ExampleUnitTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/trinity/basemvvm/ExampleUnitTest.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\HauTV\.android\avd\Pixel_3a_XL_API_30.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="resourceFile" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
+        <option value="layoutResourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2L7QpVFMGZsHvXdQlJycbuvEdSD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android-custom-viewF:/Android/Trinity_Android/app/src/main/java/com/trinity/basemvvm/ui/customview/ProgressRelative.kt_SELECTED" value="ProgressRelative" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../handi-nextpc" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Android\Trinity_Android\app\src\main\res\drawable" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.trinity.basemvvm.ui.main.activity.login" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="BaseMVVM.app.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+        <option name="PROFILING_MODE" value="NOT_SET" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="59c76a29-2a50-420f-9210-aa00cecf3154" name="Changes" comment="" />
+      <created>1675219823243</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675219823243</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,250 @@
+[
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\anim_fade_in.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_home.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\anim_enter_to_left_faster.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\anim\\enter_to_left_faster.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\anim_enter_to_top.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\anim\\enter_to_top.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_custom_layout_sinup_apple.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\drawable\\custom_layout_sinup_apple.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_user.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\layout\\fragment_user.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\anim_non_all_animation.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\anim\\non_all_animation.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_photo.png.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\drawable-hdpi\\ic_photo.png"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_photo.png.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_photo.png"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\anim_rotate_chat.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\anim\\rotate_chat.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_custom_btn_login_gradient.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\drawable\\custom_btn_login_gradient.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\anim_exit_to_right.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\anim\\exit_to_right.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_error.png.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_error.png"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\anim_hide_to_top.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\anim\\hide_to_top.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_photo.png.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\drawable-xhdpi\\ic_photo.png"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_google.png.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\drawable\\google.png"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\anim_alphal_increase.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\anim\\alphal_increase.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\anim_fade_out.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\anim_sheet_hide.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\anim\\sheet_hide.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\anim_non_animation.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\anim\\non_animation.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\anim_enter_to_right.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\anim\\enter_to_right.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_photo.png.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_photo.png"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\anim_anim_wave.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\anim\\anim_wave.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_item_user.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\layout\\item_user.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_dialog_confirm.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\layout\\dialog_confirm.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\anim_alpha_degree.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\anim\\alpha_degree.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_custom_btn_home.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\drawable\\custom_btn_home.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_splash.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_error.png.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\drawable-mdpi\\ic_error.png"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_signup.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\layout\\fragment_signup.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\anim_enter_to_left.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\anim\\enter_to_left.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_error.png.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\drawable-xhdpi\\ic_error.png"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_check_register.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\layout\\fragment_check_register.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_signin.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\layout\\fragment_signin.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_photo.png.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\drawable-mdpi\\ic_photo.png"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\anim_exit_hide_alpha.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\anim\\exit_hide_alpha.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_custom_layout_signup.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\drawable\\custom_layout_signup.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_help_24.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\drawable\\ic_baseline_help_24.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_error.png.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_error.png"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_error.png.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\drawable-hdpi\\ic_error.png"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\anim_enter_show_to_bottom.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\anim\\enter_show_to_bottom.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\anim_exit_hide_to_bottom.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\anim\\exit_hide_to_bottom.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\anim_sheet_show.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\anim\\sheet_show.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_back.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\drawable\\ic_back.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\anim_exit_to_left.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\anim\\exit_to_left.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\anim_layout_animation_fall_down.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\anim\\layout_animation_fall_down.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\anim_item_animation_fall_down.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\anim\\item_animation_fall_down.xml"
+    }
+]
