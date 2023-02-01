@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Trinity</string>
+    <string name="You_need_open_setting_to_grant_permission">You need open setting to grant permission!</string>
+
+    --------------Splash Activity-------------
+    <string name="titleSplash">Weara</string>
+
+    --------------Home Activity----------------
+    <string name="titleHome">スタート画面</string>
+    <string name="txtNewAccount">はじめての方</string>
+    <string name="txtLogin">サインイン</string>
+    --------------Login Activity-------------
+    <string name="txtBack">もどる</string>
+    <string name="txtSignup">新規登録</string>
+    <string name="txtSignin">サインイン</string>
+    --------------Signup Fragment------------
+    <string name="txtSignupEmail">メールアドレスを登録</string>
+    <string name="btnSignup">新規登録</string>
+    <string name="txtLinkEmail">メールリンクとは ？</string>
+    <string name="txtLoginWithYourUser">アカウントでサインイン</string>
+    <string name="txtSigninWithApple">Sign in with Apple</string>
+    <string name="txtSigninWithGoogle">Sign in with Google</string>
+    ---------------Check Register Fragment-------------
+    <string name="txtNotifiEmail">宛にメールを送信しました。</string>
+    <string name="btnOpenEmail">メールアプリを開く</string>
+    <string name="txtNotifi2">もう一度戻ってやり直してください。</string>
+    <string name="txtNotifi1">3分経って届かない場合には</string>
+    <string name="txtNotifi3">※noreply@weara.jpからのメールを</string>
+    <string name="txtNotifi4">許可してください。</string>
+</resources>
