@@ -2,7 +2,10 @@
 <project version="4">
   <component name="AndroidLayouts">
     <shared>
-      <config />
+      <config>
+        <device id="pixel_3a_xl" />
+        <option name="nonWearDeviceLastStateName" value="Portrait" />
+      </config>
     </shared>
   </component>
   <component name="AutoImportSettings">
@@ -21,6 +24,18 @@
       <change afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/main/fragment/check_register/CheckRegisterCallBack.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/main/fragment/check_register/CheckRegisterFragment.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/main/fragment/check_register/CheckRegisterViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/main/fragment/confirm_email/ConfirmEmailCallBack.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/main/fragment/confirm_email/ConfirmEmailFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/main/fragment/confirm_email/ConfirmEmailViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/main/fragment/create_account/CreateAccountCallBack.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/main/fragment/create_account/CreateAccountFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/main/fragment/create_account/CreateAccountViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/main/fragment/link_email/LinkEmailCallBack.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/main/fragment/link_email/LinkEmailFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/main/fragment/link_email/LinkEmailViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/main/fragment/profile/ProfileCallBack.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/main/fragment/profile/ProfileFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/main/fragment/profile/ProfileViewModel.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/main/fragment/signin/SigninCallBack.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/main/fragment/signin/SigninFragment.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/main/fragment/signin/SigninViewModel.kt" afterDir="false" />
@@ -31,6 +46,7 @@
       <change afterPath="$PROJECT_DIR$/app/src/main/java/com/trinity/basemvvm/ui/utils/Utils.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/custom_btn_home.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/custom_btn_login_gradient.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/custom_layout_create_account.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/custom_layout_signup.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/custom_layout_sinup_apple.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/google.png" afterDir="false" />
@@ -38,6 +54,11 @@
       <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_check_register.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_confirm_email.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_create_account.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_description_email.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_link_email.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_signin.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_signup.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
@@ -116,8 +137,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="resourceFile" />
-        <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Interface" />
         <option value="layoutResourceFile" />
       </list>
     </option>
@@ -141,7 +162,7 @@
     <property name="android-custom-viewF:/Android/Trinity_Android/app/src/main/java/com/trinity/basemvvm/ui/customview/ProgressRelative.kt_SELECTED" value="ProgressRelative" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../handi-nextpc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">

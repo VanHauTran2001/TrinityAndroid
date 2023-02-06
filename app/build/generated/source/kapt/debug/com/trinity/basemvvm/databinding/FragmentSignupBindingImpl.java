@@ -5,7 +5,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.view.View;
 @SuppressWarnings("unchecked")
-public class FragmentSignupBindingImpl extends FragmentSignupBinding  {
+public class FragmentSignupBindingImpl extends FragmentSignupBinding implements com.trinity.basemvvm.generated.callback.OnClickListener.Listener {
 
     @Nullable
     private static final androidx.databinding.ViewDataBinding.IncludedLayouts sIncludes;
@@ -14,13 +14,14 @@ public class FragmentSignupBindingImpl extends FragmentSignupBinding  {
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.btnSignup, 1);
         sViewsWithIds.put(R.id.imgGoolge, 2);
     }
     // views
     @NonNull
     private final android.widget.LinearLayout mboundView0;
     // variables
+    @Nullable
+    private final android.view.View.OnClickListener mCallback8;
     // values
     // listeners
     // Inverse Binding Event Handlers
@@ -33,10 +34,12 @@ public class FragmentSignupBindingImpl extends FragmentSignupBinding  {
             , (android.widget.Button) bindings[1]
             , (android.widget.ImageView) bindings[2]
             );
+        this.btnSignup.setTag(null);
         this.mboundView0 = (android.widget.LinearLayout) bindings[0];
         this.mboundView0.setTag(null);
         setRootTag(root);
         // listeners
+        mCallback8 = new com.trinity.basemvvm.generated.callback.OnClickListener(this, 1);
         invalidateAll();
     }
 
@@ -72,6 +75,11 @@ public class FragmentSignupBindingImpl extends FragmentSignupBinding  {
 
     public void setSignupViewModel(@Nullable com.trinity.basemvvm.ui.main.fragment.signup.SignupViewModel SignupViewModel) {
         this.mSignupViewModel = SignupViewModel;
+        synchronized(this) {
+            mDirtyFlags |= 0x1L;
+        }
+        notifyPropertyChanged(BR.signupViewModel);
+        super.requestRebind();
     }
 
     @Override
@@ -88,10 +96,32 @@ public class FragmentSignupBindingImpl extends FragmentSignupBinding  {
             dirtyFlags = mDirtyFlags;
             mDirtyFlags = 0;
         }
+        com.trinity.basemvvm.ui.main.fragment.signup.SignupViewModel signupViewModel = mSignupViewModel;
         // batch finished
+        if ((dirtyFlags & 0x2L) != 0) {
+            // api target 1
+
+            this.btnSignup.setOnClickListener(mCallback8);
+        }
     }
     // Listener Stub Implementations
     // callback impls
+    public final void _internalCallbackOnClick(int sourceId , android.view.View callbackArg_0) {
+        // localize variables for thread safety
+        // signupViewModel != null
+        boolean signupViewModelJavaLangObjectNull = false;
+        // signupViewModel
+        com.trinity.basemvvm.ui.main.fragment.signup.SignupViewModel signupViewModel = mSignupViewModel;
+
+
+
+        signupViewModelJavaLangObjectNull = (signupViewModel) != (null);
+        if (signupViewModelJavaLangObjectNull) {
+
+
+            signupViewModel.onClickSigup();
+        }
+    }
     // dirty flag
     private  long mDirtyFlags = 0xffffffffffffffffL;
     /* flag mapping

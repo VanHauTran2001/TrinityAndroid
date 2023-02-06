@@ -12,4 +12,10 @@ class SigninViewModel @Inject constructor(
     scheduler: Executor
 ) : BaseViewModel<SigninCallBack>(appDatabase,interactCommon,scheduler) {
 
+    companion object{
+        const val ON_CLICK_SIGNIN = 1
+    }
+    fun onClickSigin(){
+        uiEventLiveData.value = ON_CLICK_SIGNIN
+    }
 }

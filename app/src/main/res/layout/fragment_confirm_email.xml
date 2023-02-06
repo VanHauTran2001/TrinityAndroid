@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="confirmEmailViewModel"
+            type="com.trinity.basemvvm.ui.main.fragment.confirm_email.ConfirmEmailViewModel" />
+        <import type="android.view.View"/>
+    </data>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/background"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/txt1"
+            android:fontFamily="casual"
+            android:gravity="center_horizontal"
+            android:letterSpacing="0.3"
+            android:text="@string/titleSplash"
+            android:id="@+id/txtWeara"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt1"
+            android:textSize="30sp"
+            android:layout_centerInParent="true"
+            android:id="@+id/txt1"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="55.8dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt2"
+            android:textSize="30sp"
+            android:layout_below="@id/txt1"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"/>
+        <Button
+            android:layout_width="230dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:layout_height="55dp"
+            android:text="@string/btnSetting"
+            android:id="@+id/btnSetting"
+            android:textColor="@color/black"
+            android:onClick="@{()->confirmEmailViewModel.onClickSetting()}"
+            android:textSize="16sp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="96dp"
+            android:background="@drawable/custom_btn_login_gradient"/>
+    </RelativeLayout>
+</layout>

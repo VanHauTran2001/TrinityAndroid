@@ -15,17 +15,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="taro@sample.jp"
-            android:textSize="20sp"
+            android:textSize="22sp"
             android:textStyle="bold"
             android:textColor="@color/white"
             android:gravity="center_horizontal"
-            android:layout_marginTop="123dp"/>
+            android:layout_marginTop="109dp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/white"
             android:text="@string/txtNotifiEmail"
-            android:textSize="20sp"
+            android:textSize="18sp"
             android:gravity="center_horizontal"
             android:layout_marginTop="30dp"/>
         <TextView
@@ -34,7 +34,7 @@
             android:textColor="@color/white"
             android:layout_gravity="center_horizontal"
             android:text="@string/txtNotifi1"
-            android:textSize="20sp"
+            android:textSize="15sp"
             android:gravity="center_horizontal"
             android:layout_marginTop="30dp"/>
         <TextView
@@ -44,7 +44,7 @@
             android:layout_marginTop="5dp"
             android:layout_gravity="center_horizontal"
             android:text="@string/txtNotifi2"
-            android:textSize="20dp"
+            android:textSize="15sp"
             android:gravity="center_horizontal" />
         <TextView
             android:layout_width="match_parent"
@@ -52,7 +52,7 @@
             android:textColor="@color/white"
             android:layout_gravity="center_horizontal"
             android:text="@string/txtNotifi3"
-            android:textSize="20sp"
+            android:textSize="15sp"
             android:gravity="center_horizontal"
             android:layout_marginTop="30dp"/>
         <TextView
@@ -61,18 +61,18 @@
             android:textColor="@color/white"
             android:text="@string/txtNotifi4"
             android:layout_gravity="center_horizontal"
-            android:textSize="20sp"
+            android:textSize="15sp"
             android:layout_marginTop="5dp"
             android:gravity="center_horizontal" />
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="230dp"
+            android:layout_height="55dp"
             android:text="@string/btnOpenEmail"
+            android:id="@+id/btnOpenEmail"
+            android:onClick="@{()->checkRegisterViewModel.onClickOpenEmail()}"
+            android:layout_gravity="center_horizontal"
             android:background="@drawable/custom_btn_home"
-            android:layout_marginStart="50dp"
-            android:layout_marginEnd="50dp"
-            android:padding="15dp"
             android:layout_marginTop="40dp"
-            android:textSize="20sp"/>
+            android:textSize="16sp"/>
     </LinearLayout>
 </layout>

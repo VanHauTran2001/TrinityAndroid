@@ -12,4 +12,14 @@ class HomeViewModel @Inject constructor(
     scheduler: Executor
 ) : BaseViewModel<HomeCallBack>(appDatabase,interactCommon,scheduler) {
 
+    companion object{
+        const val ON_CLICK_LOGIN = 1
+        const val ON_CLICK_NEW_ACCOUNT = 2
+    }
+    fun onClickLogin(){
+        uiEventLiveData.value = ON_CLICK_LOGIN
+    }
+    fun onClickNewAccount(){
+        uiEventLiveData.value = ON_CLICK_NEW_ACCOUNT
+    }
 }

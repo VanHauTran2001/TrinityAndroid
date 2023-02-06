@@ -25,6 +25,7 @@ class SigninFragment : BaseMvvmFragment<SigninCallBack,SigninViewModel>(),Signin
         mModel.uiEventLiveData.observe(this){
             when(it){
                 BaseViewModel.FINISH_ACTIVITY -> finishActivity()
+
             }
         }
     }

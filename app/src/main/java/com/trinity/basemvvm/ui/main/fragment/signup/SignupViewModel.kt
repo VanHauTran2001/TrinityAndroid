@@ -12,4 +12,10 @@ class SignupViewModel @Inject constructor(
     scheduler: Executor
 ) : BaseViewModel<SignupCallBack>(appDatabase,interactCommon,scheduler) {
 
+    companion object{
+        const val ON_CLICK_SIGNUP = 1
+    }
+    fun onClickSigup(){
+        uiEventLiveData.value = ON_CLICK_SIGNUP
+    }
 }

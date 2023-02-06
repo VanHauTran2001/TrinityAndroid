@@ -26,14 +26,18 @@ class HomeAcitivty : BaseMVVMActivity<HomeCallBack, HomeViewModel>(), HomeCallBa
         mModel.uiEventLiveData.observe(this){
             when(it){
                 BaseViewModel.FINISH_ACTIVITY -> finish()
+                HomeViewModel.ON_CLICK_LOGIN -> onClickLogin()
+                HomeViewModel.ON_CLICK_NEW_ACCOUNT -> onClickNewAccount()
             }
         }
-        getBindingData().btnLogin.setOnClickListener {
-            startActivity(Intent(this@HomeAcitivty,LoginActivity::class.java))
-        }
-        getBindingData().btnNewAccount.setOnClickListener {
-            startActivity(Intent(this@HomeAcitivty,LoginActivity::class.java))
-        }
+    }
+
+    private fun onClickLogin() {
+        startActivity(Intent(this@HomeAcitivty,LoginActivity::class.java))
+    }
+
+    private fun onClickNewAccount() {
+        startActivity(Intent(this@HomeAcitivty,LoginActivity::class.java))
     }
 
     override fun getBindingData() = mBinding as ActivityHomeBinding

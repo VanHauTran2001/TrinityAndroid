@@ -5,7 +5,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.view.View;
 @SuppressWarnings("unchecked")
-public class FragmentSigninBindingImpl extends FragmentSigninBinding  {
+public class FragmentSigninBindingImpl extends FragmentSigninBinding implements com.trinity.basemvvm.generated.callback.OnClickListener.Listener {
 
     @Nullable
     private static final androidx.databinding.ViewDataBinding.IncludedLayouts sIncludes;
@@ -14,13 +14,14 @@ public class FragmentSigninBindingImpl extends FragmentSigninBinding  {
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.btnSignin, 1);
         sViewsWithIds.put(R.id.imgGoolge, 2);
     }
     // views
     @NonNull
     private final android.widget.LinearLayout mboundView0;
     // variables
+    @Nullable
+    private final android.view.View.OnClickListener mCallback10;
     // values
     // listeners
     // Inverse Binding Event Handlers
@@ -33,10 +34,12 @@ public class FragmentSigninBindingImpl extends FragmentSigninBinding  {
             , (android.widget.Button) bindings[1]
             , (android.widget.ImageView) bindings[2]
             );
+        this.btnSignin.setTag(null);
         this.mboundView0 = (android.widget.LinearLayout) bindings[0];
         this.mboundView0.setTag(null);
         setRootTag(root);
         // listeners
+        mCallback10 = new com.trinity.basemvvm.generated.callback.OnClickListener(this, 1);
         invalidateAll();
     }
 
@@ -72,6 +75,11 @@ public class FragmentSigninBindingImpl extends FragmentSigninBinding  {
 
     public void setSigninViewModel(@Nullable com.trinity.basemvvm.ui.main.fragment.signin.SigninViewModel SigninViewModel) {
         this.mSigninViewModel = SigninViewModel;
+        synchronized(this) {
+            mDirtyFlags |= 0x1L;
+        }
+        notifyPropertyChanged(BR.signinViewModel);
+        super.requestRebind();
     }
 
     @Override
@@ -88,10 +96,32 @@ public class FragmentSigninBindingImpl extends FragmentSigninBinding  {
             dirtyFlags = mDirtyFlags;
             mDirtyFlags = 0;
         }
+        com.trinity.basemvvm.ui.main.fragment.signin.SigninViewModel signinViewModel = mSigninViewModel;
         // batch finished
+        if ((dirtyFlags & 0x2L) != 0) {
+            // api target 1
+
+            this.btnSignin.setOnClickListener(mCallback10);
+        }
     }
     // Listener Stub Implementations
     // callback impls
+    public final void _internalCallbackOnClick(int sourceId , android.view.View callbackArg_0) {
+        // localize variables for thread safety
+        // signinViewModel
+        com.trinity.basemvvm.ui.main.fragment.signin.SigninViewModel signinViewModel = mSigninViewModel;
+        // signinViewModel != null
+        boolean signinViewModelJavaLangObjectNull = false;
+
+
+
+        signinViewModelJavaLangObjectNull = (signinViewModel) != (null);
+        if (signinViewModelJavaLangObjectNull) {
+
+
+            signinViewModel.onClickSigin();
+        }
+    }
     // dirty flag
     private  long mDirtyFlags = 0xffffffffffffffffL;
     /* flag mapping

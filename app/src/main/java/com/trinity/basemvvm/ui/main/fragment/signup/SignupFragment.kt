@@ -26,11 +26,13 @@ class SignupFragment : BaseMvvmFragment<SignupCallBack,SignupViewModel>(),Signup
         mModel.uiEventLiveData.observe(this){
             when(it){
                 BaseViewModel.FINISH_ACTIVITY -> finishActivity()
+                SignupViewModel.ON_CLICK_SIGNUP -> onClickSignup()
             }
         }
-        getBindingData().btnSignup.setOnClickListener {
-            OpenFragmentUtils.replaceFragmentAddStack(requireActivity().supportFragmentManager,CheckRegisterFragment(),CheckRegisterFragment.TAG)
-        }
+    }
+
+    private fun onClickSignup() {
+        OpenFragmentUtils.replaceFragmentAddStack(requireActivity().supportFragmentManager,CheckRegisterFragment(),CheckRegisterFragment.TAG)
     }
 
     override fun getBindingData() = mBinding as FragmentSignupBinding

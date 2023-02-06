@@ -17,6 +17,8 @@ class LoginActivity : BaseMVVMActivity<LoginCallBack, LoginViewModel>(), LoginCa
     override fun initComponents() {
         getBindingData().viewModel = mModel
         Utils.title = getBindingData().txtTitleLogin
+        Utils.txtBack = getBindingData().txtBack
+        Utils.imgBackLogin = getBindingData().imgBack
         OpenFragmentUtils.replaceFragments(supportFragmentManager,SignupFragment())
     }
 

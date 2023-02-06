@@ -11,5 +11,10 @@ class CheckRegisterViewModel @Inject constructor(
     interactCommon: InteractCommon,
     scheduler: Executor
 ) : BaseViewModel<CheckRegisterCallBack>(appDatabase,interactCommon,scheduler) {
-
+    companion object{
+        const val ON_CLICK_OPEN_EMAIL = 1
+    }
+    fun onClickOpenEmail(){
+        uiEventLiveData.value = ON_CLICK_OPEN_EMAIL
+    }
 }

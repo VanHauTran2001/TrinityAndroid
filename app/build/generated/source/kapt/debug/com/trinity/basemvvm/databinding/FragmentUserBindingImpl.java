@@ -23,7 +23,7 @@ public class FragmentUserBindingImpl extends FragmentUserBinding implements com.
     private final android.widget.RelativeLayout mboundView0;
     // variables
     @Nullable
-    private final androidx.swiperefreshlayout.widget.SwipeRefreshLayout.OnRefreshListener mCallback1;
+    private final androidx.swiperefreshlayout.widget.SwipeRefreshLayout.OnRefreshListener mCallback9;
     // values
     // listeners
     // Inverse Binding Event Handlers
@@ -43,7 +43,7 @@ public class FragmentUserBindingImpl extends FragmentUserBinding implements com.
         this.swRefresh.setTag(null);
         setRootTag(root);
         // listeners
-        mCallback1 = new com.trinity.basemvvm.generated.callback.OnRefreshListener(this, 1);
+        mCallback9 = new com.trinity.basemvvm.generated.callback.OnRefreshListener(this, 1);
         invalidateAll();
     }
 
@@ -140,7 +140,7 @@ public class FragmentUserBindingImpl extends FragmentUserBinding implements com.
         if ((dirtyFlags & 0x4L) != 0) {
             // api target 1
 
-            this.swRefresh.setOnRefreshListener(mCallback1);
+            this.swRefresh.setOnRefreshListener(mCallback9);
         }
     }
     // Listener Stub Implementations

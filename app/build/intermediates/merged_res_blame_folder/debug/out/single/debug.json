@@ -16,6 +16,10 @@
         "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\anim\\fade_in.xml"
     },
     {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_create_account.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\layout\\fragment_create_account.xml"
+    },
+    {
         "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_home.xml.flat",
         "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\layout\\activity_home.xml"
     },
@@ -104,6 +108,10 @@
         "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\anim\\sheet_hide.xml"
     },
     {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_link_email.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\layout\\fragment_link_email.xml"
+    },
+    {
         "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\anim_non_animation.xml.flat",
         "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\anim\\non_animation.xml"
     },
@@ -118,6 +126,10 @@
     {
         "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_photo.png.flat",
         "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_photo.png"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_custom_layout_create_account.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\drawable\\custom_layout_create_account.xml"
     },
     {
         "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\anim_anim_wave.xml.flat",
@@ -172,6 +184,10 @@
         "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\anim\\enter_to_left.xml"
     },
     {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_profile.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\layout\\fragment_profile.xml"
+    },
+    {
         "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_error.png.flat",
         "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\drawable-xhdpi\\ic_error.png"
     },
@@ -198,6 +214,10 @@
     {
         "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_confirm_email.xml.flat",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\layout\\fragment_confirm_email.xml"
     },
     {
         "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_custom_layout_signup.xml.flat",

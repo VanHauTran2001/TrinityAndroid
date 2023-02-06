@@ -1,13 +1,5 @@
 [
     {
-        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_home.xml",
-        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\layout\\activity_home.xml"
-    },
-    {
-        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_splash.xml",
-        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\layout\\activity_splash.xml"
-    },
-    {
         "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_user.xml",
         "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\layout\\fragment_user.xml"
     },
@@ -16,19 +8,43 @@
         "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_signup.xml",
-        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\layout\\fragment_signup.xml"
-    },
-    {
         "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_check_register.xml",
         "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\layout\\fragment_check_register.xml"
     },
     {
-        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_signin.xml",
-        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\layout\\fragment_signin.xml"
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_profile.xml",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\layout\\fragment_profile.xml"
     },
     {
         "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_user.xml",
         "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\layout\\item_user.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_splash.xml",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_home.xml",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_link_email.xml",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\layout\\fragment_link_email.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_signup.xml",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\layout\\fragment_signup.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_confirm_email.xml",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\layout\\fragment_confirm_email.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_create_account.xml",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\layout\\fragment_create_account.xml"
+    },
+    {
+        "merged": "F:\\Android\\Trinity_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_signin.xml",
+        "source": "F:\\Android\\Trinity_Android\\app\\src\\main\\res\\layout\\fragment_signin.xml"
     }
 ]

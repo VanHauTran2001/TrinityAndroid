@@ -12,61 +12,63 @@
         android:background="@color/background"
         android:orientation="vertical" android:tag="layout/fragment_signup_0" xmlns:android="http://schemas.android.com/apk/res/android">
         <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="123dp"
-            android:layout_marginLeft="30sp"
-            android:layout_marginRight="30sp"
+            android:layout_width="320dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="109dp"
+            android:layout_gravity="center_horizontal"
             android:background="@drawable/custom_layout_signup">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/txtSignupEmail"
-                android:textSize="18sp"
+                android:textSize="16sp"
                 android:textColor="@color/white"
                 android:layout_centerHorizontal="true"
                 android:padding="15dp"/>
         </RelativeLayout>
         <Button
-            android:layout_width="270dp"
+            android:layout_width="230dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="40dp"
-            android:layout_height="wrap_content"
+            android:layout_height="55dp"
             android:text="@string/btnSignup"
+            android:tag="binding_1"                                
             android:id="@+id/btnSignup"
             android:textColor="@color/black"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:background="@drawable/custom_btn_login_gradient"/>
         <LinearLayout
-            android:layout_width="230dp"
+            android:layout_width="185dp"
             android:orientation="horizontal"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="16dp"
             android:background="@color/bgSignupEmail"
-            android:layout_height="wrap_content">
+            android:layout_height="44dp">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="10dp"
+               android:padding="10dp"
                 android:orientation="horizontal">
                 <ImageView
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
+                    android:layout_width="20dp"
+                    android:layout_height="23dp"
+                    android:layout_gravity="center_vertical"
                     android:src="@drawable/ic_baseline_help_24"/>
                 <LinearLayout
-                    android:layout_width="170dp"
+                    android:layout_width="wrap_content"
                     android:gravity="center"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="3dp"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
                     android:orientation="vertical">
                     <TextView
                         android:layout_width="wrap_content"
                         android:textColor="@color/white"
-                        android:textSize="18sp"
+                        android:textSize="15sp"
                         android:layout_height="wrap_content"
                         android:text="@string/txtLinkEmail" />
                     <View
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="1dp"
                         android:background="@color/white"/>
                 </LinearLayout>
@@ -75,14 +77,14 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:layout_marginLeft="30dp"
+            android:layout_marginTop="37.5dp"
+            android:layout_marginLeft="35dp"
             android:layout_gravity="center_horizontal"
             android:gravity="center_horizontal"
-            android:layout_marginRight="30dp"
+            android:layout_marginRight="35dp"
             android:orientation="horizontal">
             <View
-                android:layout_width="150dp"
+                android:layout_width="133dp"
                 android:layout_height="1dp"
                 android:layout_gravity="center_vertical"
                 android:background="@color/white"/>
@@ -90,12 +92,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="OR"
-                android:textSize="18sp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
+                android:textSize="16sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
                 android:textColor="@color/white"/>
             <View
-                android:layout_width="150dp"
+                android:layout_width="133dp"
                 android:layout_height="1dp"
                 android:layout_gravity="center_vertical"
                 android:background="@color/white"/>
@@ -105,22 +107,20 @@
             android:layout_height="wrap_content"
             android:text="@string/txtLoginWithYourUser"
             android:textColor="@color/white"
-            android:textSize="18sp"
+            android:textSize="15sp"
             android:gravity="center_horizontal"
             android:layout_marginTop="38.5dp"/>
 
         <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="40dp"
-            android:padding="10dp"
+            android:layout_width="260dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center_horizontal"
             android:layout_marginTop="30dp"
-            android:background="@drawable/custom_btn_home"
-            android:layout_marginRight="40dp">
+            android:background="@drawable/custom_btn_home">
             <ImageView
-                android:layout_width="23dp"
-                android:layout_height="23dp"
-                android:layout_marginLeft="20dp"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="26dp"
                 android:id="@+id/imgGoolge"
                 android:layout_centerVertical="true"
                 android:src="@drawable/google"/>
@@ -130,9 +130,9 @@
                 android:text="@string/txtSigninWithGoogle"
                 android:textColor="@color/black"
                 android:layout_toRightOf="@id/imgGoolge"
-                android:textSize="20sp"
+                android:textSize="19sp"
                 android:layout_centerVertical="true"
-                android:layout_marginStart="30sp"
+                android:layout_marginStart="23.7sp"
                 android:textStyle="bold"/>
         </RelativeLayout>
 

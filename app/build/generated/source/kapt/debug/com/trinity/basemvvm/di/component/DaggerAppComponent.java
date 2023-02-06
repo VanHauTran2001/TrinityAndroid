@@ -12,6 +12,10 @@ import com.trinity.basemvvm.di.builder.ActivityBuilderModule_ContributeHomeActiv
 import com.trinity.basemvvm.di.builder.ActivityBuilderModule_ContributeLoginActivity;
 import com.trinity.basemvvm.di.builder.ActivityBuilderModule_ContributeSplashActivity;
 import com.trinity.basemvvm.di.builder.FragmentBuilderModule_ContributeCheckRegisterFragment;
+import com.trinity.basemvvm.di.builder.FragmentBuilderModule_ContributeConfirmEmailFragment;
+import com.trinity.basemvvm.di.builder.FragmentBuilderModule_ContributeCreateAccountFragment;
+import com.trinity.basemvvm.di.builder.FragmentBuilderModule_ContributeLinkEmailFragment;
+import com.trinity.basemvvm.di.builder.FragmentBuilderModule_ContributeProfileFragment;
 import com.trinity.basemvvm.di.builder.FragmentBuilderModule_ContributeSignINFragment;
 import com.trinity.basemvvm.di.builder.FragmentBuilderModule_ContributeSignupFragment;
 import com.trinity.basemvvm.di.builder.FragmentBuilderModule_ContributeUserFragment;
@@ -36,6 +40,18 @@ import com.trinity.basemvvm.ui.main.activity.splash.SplashViewModel_Factory;
 import com.trinity.basemvvm.ui.main.fragment.check_register.CheckRegisterFragment;
 import com.trinity.basemvvm.ui.main.fragment.check_register.CheckRegisterViewModel;
 import com.trinity.basemvvm.ui.main.fragment.check_register.CheckRegisterViewModel_Factory;
+import com.trinity.basemvvm.ui.main.fragment.confirm_email.ConfirmEmailFragment;
+import com.trinity.basemvvm.ui.main.fragment.confirm_email.ConfirmEmailViewModel;
+import com.trinity.basemvvm.ui.main.fragment.confirm_email.ConfirmEmailViewModel_Factory;
+import com.trinity.basemvvm.ui.main.fragment.create_account.CreateAccountFragment;
+import com.trinity.basemvvm.ui.main.fragment.create_account.CreateAccountViewModel;
+import com.trinity.basemvvm.ui.main.fragment.create_account.CreateAccountViewModel_Factory;
+import com.trinity.basemvvm.ui.main.fragment.link_email.LinkEmailFragment;
+import com.trinity.basemvvm.ui.main.fragment.link_email.LinkEmailViewModel;
+import com.trinity.basemvvm.ui.main.fragment.link_email.LinkEmailViewModel_Factory;
+import com.trinity.basemvvm.ui.main.fragment.profile.ProfileFragment;
+import com.trinity.basemvvm.ui.main.fragment.profile.ProfileViewModel;
+import com.trinity.basemvvm.ui.main.fragment.profile.ProfileViewModel_Factory;
 import com.trinity.basemvvm.ui.main.fragment.signin.SigninFragment;
 import com.trinity.basemvvm.ui.main.fragment.signin.SigninViewModel;
 import com.trinity.basemvvm.ui.main.fragment.signin.SigninViewModel_Factory;
@@ -83,6 +99,14 @@ public final class DaggerAppComponent implements AppComponent {
 
   private Provider<FragmentBuilderModule_ContributeCheckRegisterFragment.CheckRegisterFragmentSubcomponent.Factory> checkRegisterFragmentSubcomponentFactoryProvider;
 
+  private Provider<FragmentBuilderModule_ContributeConfirmEmailFragment.ConfirmEmailFragmentSubcomponent.Factory> confirmEmailFragmentSubcomponentFactoryProvider;
+
+  private Provider<FragmentBuilderModule_ContributeCreateAccountFragment.CreateAccountFragmentSubcomponent.Factory> createAccountFragmentSubcomponentFactoryProvider;
+
+  private Provider<FragmentBuilderModule_ContributeLinkEmailFragment.LinkEmailFragmentSubcomponent.Factory> linkEmailFragmentSubcomponentFactoryProvider;
+
+  private Provider<FragmentBuilderModule_ContributeProfileFragment.ProfileFragmentSubcomponent.Factory> profileFragmentSubcomponentFactoryProvider;
+
   private Provider<Application> applicationProvider;
 
   private Provider<Context> provideContext$app_debugProvider;
@@ -107,6 +131,14 @@ public final class DaggerAppComponent implements AppComponent {
 
   private Provider<CheckRegisterViewModel> checkRegisterViewModelProvider;
 
+  private Provider<ConfirmEmailViewModel> confirmEmailViewModelProvider;
+
+  private Provider<CreateAccountViewModel> createAccountViewModelProvider;
+
+  private Provider<LinkEmailViewModel> linkEmailViewModelProvider;
+
+  private Provider<ProfileViewModel> profileViewModelProvider;
+
   private Provider<Map<Class<? extends ViewModel>, Provider<ViewModel>>> mapOfClassOfAndProviderOfViewModelProvider;
 
   private Provider<ViewModelFactory> viewModelFactoryProvider;
@@ -123,7 +155,7 @@ public final class DaggerAppComponent implements AppComponent {
 
   private Map<Class<?>, Provider<AndroidInjector.Factory<?>>> mapOfClassOfAndProviderOfAndroidInjectorFactoryOf(
       ) {
-    return MapBuilder.<Class<?>, Provider<AndroidInjector.Factory<?>>>newMapBuilder(7).put(LoginActivity.class, ((Provider) loginActivitySubcomponentFactoryProvider)).put(SplashActivity.class, ((Provider) splashActivitySubcomponentFactoryProvider)).put(HomeAcitivty.class, ((Provider) homeAcitivtySubcomponentFactoryProvider)).put(UserFragment.class, ((Provider) userFragmentSubcomponentFactoryProvider)).put(SignupFragment.class, ((Provider) signupFragmentSubcomponentFactoryProvider)).put(SigninFragment.class, ((Provider) signinFragmentSubcomponentFactoryProvider)).put(CheckRegisterFragment.class, ((Provider) checkRegisterFragmentSubcomponentFactoryProvider)).build();
+    return MapBuilder.<Class<?>, Provider<AndroidInjector.Factory<?>>>newMapBuilder(11).put(LoginActivity.class, ((Provider) loginActivitySubcomponentFactoryProvider)).put(SplashActivity.class, ((Provider) splashActivitySubcomponentFactoryProvider)).put(HomeAcitivty.class, ((Provider) homeAcitivtySubcomponentFactoryProvider)).put(UserFragment.class, ((Provider) userFragmentSubcomponentFactoryProvider)).put(SignupFragment.class, ((Provider) signupFragmentSubcomponentFactoryProvider)).put(SigninFragment.class, ((Provider) signinFragmentSubcomponentFactoryProvider)).put(CheckRegisterFragment.class, ((Provider) checkRegisterFragmentSubcomponentFactoryProvider)).put(ConfirmEmailFragment.class, ((Provider) confirmEmailFragmentSubcomponentFactoryProvider)).put(CreateAccountFragment.class, ((Provider) createAccountFragmentSubcomponentFactoryProvider)).put(LinkEmailFragment.class, ((Provider) linkEmailFragmentSubcomponentFactoryProvider)).put(ProfileFragment.class, ((Provider) profileFragmentSubcomponentFactoryProvider)).build();
   }
 
   private DispatchingAndroidInjector<Object> dispatchingAndroidInjectorOfObject() {
@@ -178,6 +210,34 @@ public final class DaggerAppComponent implements AppComponent {
         return new CheckRegisterFragmentSubcomponentFactory(appComponent);
       }
     };
+    this.confirmEmailFragmentSubcomponentFactoryProvider = new Provider<FragmentBuilderModule_ContributeConfirmEmailFragment.ConfirmEmailFragmentSubcomponent.Factory>() {
+      @Override
+      public FragmentBuilderModule_ContributeConfirmEmailFragment.ConfirmEmailFragmentSubcomponent.Factory get(
+          ) {
+        return new ConfirmEmailFragmentSubcomponentFactory(appComponent);
+      }
+    };
+    this.createAccountFragmentSubcomponentFactoryProvider = new Provider<FragmentBuilderModule_ContributeCreateAccountFragment.CreateAccountFragmentSubcomponent.Factory>() {
+      @Override
+      public FragmentBuilderModule_ContributeCreateAccountFragment.CreateAccountFragmentSubcomponent.Factory get(
+          ) {
+        return new CreateAccountFragmentSubcomponentFactory(appComponent);
+      }
+    };
+    this.linkEmailFragmentSubcomponentFactoryProvider = new Provider<FragmentBuilderModule_ContributeLinkEmailFragment.LinkEmailFragmentSubcomponent.Factory>() {
+      @Override
+      public FragmentBuilderModule_ContributeLinkEmailFragment.LinkEmailFragmentSubcomponent.Factory get(
+          ) {
+        return new LinkEmailFragmentSubcomponentFactory(appComponent);
+      }
+    };
+    this.profileFragmentSubcomponentFactoryProvider = new Provider<FragmentBuilderModule_ContributeProfileFragment.ProfileFragmentSubcomponent.Factory>() {
+      @Override
+      public FragmentBuilderModule_ContributeProfileFragment.ProfileFragmentSubcomponent.Factory get(
+          ) {
+        return new ProfileFragmentSubcomponentFactory(appComponent);
+      }
+    };
     this.applicationProvider = InstanceFactory.create(applicationParam);
     this.provideContext$app_debugProvider = DoubleCheck.provider(AppModel_ProvideContext$app_debugFactory.create(appModelParam, applicationProvider));
     this.provideAppDatabase$app_debugProvider = DoubleCheck.provider(AppModel_ProvideAppDatabase$app_debugFactory.create(appModelParam, applicationProvider));
@@ -190,7 +250,11 @@ public final class DaggerAppComponent implements AppComponent {
     this.signupViewModelProvider = SignupViewModel_Factory.create(provideAppDatabase$app_debugProvider, provideInteractCommon$app_debugProvider, provideSchedule$app_debugProvider);
     this.signinViewModelProvider = SigninViewModel_Factory.create(provideAppDatabase$app_debugProvider, provideInteractCommon$app_debugProvider, provideSchedule$app_debugProvider);
     this.checkRegisterViewModelProvider = CheckRegisterViewModel_Factory.create(provideAppDatabase$app_debugProvider, provideInteractCommon$app_debugProvider, provideSchedule$app_debugProvider);
-    this.mapOfClassOfAndProviderOfViewModelProvider = MapProviderFactory.<Class<? extends ViewModel>, ViewModel>builder(7).put(LoginViewModel.class, ((Provider) loginViewModelProvider)).put(SplashViewModel.class, ((Provider) splashViewModelProvider)).put(HomeViewModel.class, ((Provider) homeViewModelProvider)).put(UserViewModel.class, ((Provider) userViewModelProvider)).put(SignupViewModel.class, ((Provider) signupViewModelProvider)).put(SigninViewModel.class, ((Provider) signinViewModelProvider)).put(CheckRegisterViewModel.class, ((Provider) checkRegisterViewModelProvider)).build();
+    this.confirmEmailViewModelProvider = ConfirmEmailViewModel_Factory.create(provideAppDatabase$app_debugProvider, provideInteractCommon$app_debugProvider, provideSchedule$app_debugProvider);
+    this.createAccountViewModelProvider = CreateAccountViewModel_Factory.create(provideAppDatabase$app_debugProvider, provideInteractCommon$app_debugProvider, provideSchedule$app_debugProvider);
+    this.linkEmailViewModelProvider = LinkEmailViewModel_Factory.create(provideAppDatabase$app_debugProvider, provideInteractCommon$app_debugProvider, provideSchedule$app_debugProvider);
+    this.profileViewModelProvider = ProfileViewModel_Factory.create(provideAppDatabase$app_debugProvider, provideInteractCommon$app_debugProvider, provideSchedule$app_debugProvider);
+    this.mapOfClassOfAndProviderOfViewModelProvider = MapProviderFactory.<Class<? extends ViewModel>, ViewModel>builder(11).put(LoginViewModel.class, ((Provider) loginViewModelProvider)).put(SplashViewModel.class, ((Provider) splashViewModelProvider)).put(HomeViewModel.class, ((Provider) homeViewModelProvider)).put(UserViewModel.class, ((Provider) userViewModelProvider)).put(SignupViewModel.class, ((Provider) signupViewModelProvider)).put(SigninViewModel.class, ((Provider) signinViewModelProvider)).put(CheckRegisterViewModel.class, ((Provider) checkRegisterViewModelProvider)).put(ConfirmEmailViewModel.class, ((Provider) confirmEmailViewModelProvider)).put(CreateAccountViewModel.class, ((Provider) createAccountViewModelProvider)).put(LinkEmailViewModel.class, ((Provider) linkEmailViewModelProvider)).put(ProfileViewModel.class, ((Provider) profileViewModelProvider)).build();
     this.viewModelFactoryProvider = DoubleCheck.provider(ViewModelFactory_Factory.create(mapOfClassOfAndProviderOfViewModelProvider));
   }
 
@@ -355,6 +419,66 @@ public final class DaggerAppComponent implements AppComponent {
     }
   }
 
+  private static final class ConfirmEmailFragmentSubcomponentFactory implements FragmentBuilderModule_ContributeConfirmEmailFragment.ConfirmEmailFragmentSubcomponent.Factory {
+    private final DaggerAppComponent appComponent;
+
+    private ConfirmEmailFragmentSubcomponentFactory(DaggerAppComponent appComponent) {
+      this.appComponent = appComponent;
+    }
+
+    @Override
+    public FragmentBuilderModule_ContributeConfirmEmailFragment.ConfirmEmailFragmentSubcomponent create(
+        ConfirmEmailFragment arg0) {
+      Preconditions.checkNotNull(arg0);
+      return new ConfirmEmailFragmentSubcomponentImpl(appComponent, arg0);
+    }
+  }
+
+  private static final class CreateAccountFragmentSubcomponentFactory implements FragmentBuilderModule_ContributeCreateAccountFragment.CreateAccountFragmentSubcomponent.Factory {
+    private final DaggerAppComponent appComponent;
+
+    private CreateAccountFragmentSubcomponentFactory(DaggerAppComponent appComponent) {
+      this.appComponent = appComponent;
+    }
+
+    @Override
+    public FragmentBuilderModule_ContributeCreateAccountFragment.CreateAccountFragmentSubcomponent create(
+        CreateAccountFragment arg0) {
+      Preconditions.checkNotNull(arg0);
+      return new CreateAccountFragmentSubcomponentImpl(appComponent, arg0);
+    }
+  }
+
+  private static final class LinkEmailFragmentSubcomponentFactory implements FragmentBuilderModule_ContributeLinkEmailFragment.LinkEmailFragmentSubcomponent.Factory {
+    private final DaggerAppComponent appComponent;
+
+    private LinkEmailFragmentSubcomponentFactory(DaggerAppComponent appComponent) {
+      this.appComponent = appComponent;
+    }
+
+    @Override
+    public FragmentBuilderModule_ContributeLinkEmailFragment.LinkEmailFragmentSubcomponent create(
+        LinkEmailFragment arg0) {
+      Preconditions.checkNotNull(arg0);
+      return new LinkEmailFragmentSubcomponentImpl(appComponent, arg0);
+    }
+  }
+
+  private static final class ProfileFragmentSubcomponentFactory implements FragmentBuilderModule_ContributeProfileFragment.ProfileFragmentSubcomponent.Factory {
+    private final DaggerAppComponent appComponent;
+
+    private ProfileFragmentSubcomponentFactory(DaggerAppComponent appComponent) {
+      this.appComponent = appComponent;
+    }
+
+    @Override
+    public FragmentBuilderModule_ContributeProfileFragment.ProfileFragmentSubcomponent create(
+        ProfileFragment arg0) {
+      Preconditions.checkNotNull(arg0);
+      return new ProfileFragmentSubcomponentImpl(appComponent, arg0);
+    }
+  }
+
   private static final class LoginActivitySubcomponentImpl implements ActivityBuilderModule_ContributeLoginActivity.LoginActivitySubcomponent {
     private final DaggerAppComponent appComponent;
 
@@ -512,6 +636,98 @@ public final class DaggerAppComponent implements AppComponent {
     }
 
     private CheckRegisterFragment injectCheckRegisterFragment(CheckRegisterFragment instance) {
+      BaseMvvmFragment_MembersInjector.injectViewModelFactory(instance, appComponent.viewModelFactoryProvider.get());
+      return instance;
+    }
+  }
+
+  private static final class ConfirmEmailFragmentSubcomponentImpl implements FragmentBuilderModule_ContributeConfirmEmailFragment.ConfirmEmailFragmentSubcomponent {
+    private final DaggerAppComponent appComponent;
+
+    private final ConfirmEmailFragmentSubcomponentImpl confirmEmailFragmentSubcomponentImpl = this;
+
+    private ConfirmEmailFragmentSubcomponentImpl(DaggerAppComponent appComponent,
+        ConfirmEmailFragment arg0Param) {
+      this.appComponent = appComponent;
+
+
+    }
+
+    @Override
+    public void inject(ConfirmEmailFragment arg0) {
+      injectConfirmEmailFragment(arg0);
+    }
+
+    private ConfirmEmailFragment injectConfirmEmailFragment(ConfirmEmailFragment instance) {
+      BaseMvvmFragment_MembersInjector.injectViewModelFactory(instance, appComponent.viewModelFactoryProvider.get());
+      return instance;
+    }
+  }
+
+  private static final class CreateAccountFragmentSubcomponentImpl implements FragmentBuilderModule_ContributeCreateAccountFragment.CreateAccountFragmentSubcomponent {
+    private final DaggerAppComponent appComponent;
+
+    private final CreateAccountFragmentSubcomponentImpl createAccountFragmentSubcomponentImpl = this;
+
+    private CreateAccountFragmentSubcomponentImpl(DaggerAppComponent appComponent,
+        CreateAccountFragment arg0Param) {
+      this.appComponent = appComponent;
+
+
+    }
+
+    @Override
+    public void inject(CreateAccountFragment arg0) {
+      injectCreateAccountFragment(arg0);
+    }
+
+    private CreateAccountFragment injectCreateAccountFragment(CreateAccountFragment instance) {
+      BaseMvvmFragment_MembersInjector.injectViewModelFactory(instance, appComponent.viewModelFactoryProvider.get());
+      return instance;
+    }
+  }
+
+  private static final class LinkEmailFragmentSubcomponentImpl implements FragmentBuilderModule_ContributeLinkEmailFragment.LinkEmailFragmentSubcomponent {
+    private final DaggerAppComponent appComponent;
+
+    private final LinkEmailFragmentSubcomponentImpl linkEmailFragmentSubcomponentImpl = this;
+
+    private LinkEmailFragmentSubcomponentImpl(DaggerAppComponent appComponent,
+        LinkEmailFragment arg0Param) {
+      this.appComponent = appComponent;
+
+
+    }
+
+    @Override
+    public void inject(LinkEmailFragment arg0) {
+      injectLinkEmailFragment(arg0);
+    }
+
+    private LinkEmailFragment injectLinkEmailFragment(LinkEmailFragment instance) {
+      BaseMvvmFragment_MembersInjector.injectViewModelFactory(instance, appComponent.viewModelFactoryProvider.get());
+      return instance;
+    }
+  }
+
+  private static final class ProfileFragmentSubcomponentImpl implements FragmentBuilderModule_ContributeProfileFragment.ProfileFragmentSubcomponent {
+    private final DaggerAppComponent appComponent;
+
+    private final ProfileFragmentSubcomponentImpl profileFragmentSubcomponentImpl = this;
+
+    private ProfileFragmentSubcomponentImpl(DaggerAppComponent appComponent,
+        ProfileFragment arg0Param) {
+      this.appComponent = appComponent;
+
+
+    }
+
+    @Override
+    public void inject(ProfileFragment arg0) {
+      injectProfileFragment(arg0);
+    }
+
+    private ProfileFragment injectProfileFragment(ProfileFragment instance) {
       BaseMvvmFragment_MembersInjector.injectViewModelFactory(instance, appComponent.viewModelFactoryProvider.get());
       return instance;
     }

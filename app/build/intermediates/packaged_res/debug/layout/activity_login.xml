@@ -17,6 +17,7 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_marginTop="25dp"
+                android:layout_marginBottom="14dp"
                 android:layout_height="wrap_content">
                 <ImageView
                     android:layout_width="wrap_content"
@@ -30,7 +31,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/txtBack"
                     android:textColor="@color/white"
-                    android:textSize="18sp"
+                    android:textSize="17sp"
                     android:layout_marginStart="4dp"
                     android:id="@+id/txtBack"
                     android:layout_centerVertical="true"
@@ -40,7 +41,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/txtSignup"
                     android:textColor="@color/white"
-                    android:textSize="20sp"
+                    android:textSize="17sp"
                     android:id="@+id/txtTitleLogin"
                     android:textStyle="bold"
                     android:layout_centerVertical="true"

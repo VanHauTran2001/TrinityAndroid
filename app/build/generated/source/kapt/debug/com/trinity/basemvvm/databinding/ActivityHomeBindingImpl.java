@@ -5,7 +5,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.view.View;
 @SuppressWarnings("unchecked")
-public class ActivityHomeBindingImpl extends ActivityHomeBinding  {
+public class ActivityHomeBindingImpl extends ActivityHomeBinding implements com.trinity.basemvvm.generated.callback.OnClickListener.Listener {
 
     @Nullable
     private static final androidx.databinding.ViewDataBinding.IncludedLayouts sIncludes;
@@ -13,14 +13,16 @@ public class ActivityHomeBindingImpl extends ActivityHomeBinding  {
     private static final android.util.SparseIntArray sViewsWithIds;
     static {
         sIncludes = null;
-        sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.btnNewAccount, 1);
-        sViewsWithIds.put(R.id.btnLogin, 2);
+        sViewsWithIds = null;
     }
     // views
     @NonNull
     private final android.widget.RelativeLayout mboundView0;
     // variables
+    @Nullable
+    private final android.view.View.OnClickListener mCallback5;
+    @Nullable
+    private final android.view.View.OnClickListener mCallback6;
     // values
     // listeners
     // Inverse Binding Event Handlers
@@ -33,10 +35,14 @@ public class ActivityHomeBindingImpl extends ActivityHomeBinding  {
             , (android.widget.Button) bindings[2]
             , (android.widget.Button) bindings[1]
             );
+        this.btnLogin.setTag(null);
+        this.btnNewAccount.setTag(null);
         this.mboundView0 = (android.widget.RelativeLayout) bindings[0];
         this.mboundView0.setTag(null);
         setRootTag(root);
         // listeners
+        mCallback5 = new com.trinity.basemvvm.generated.callback.OnClickListener(this, 1);
+        mCallback6 = new com.trinity.basemvvm.generated.callback.OnClickListener(this, 2);
         invalidateAll();
     }
 
@@ -72,6 +78,11 @@ public class ActivityHomeBindingImpl extends ActivityHomeBinding  {
 
     public void setHomeViewModel(@Nullable com.trinity.basemvvm.ui.main.activity.home.HomeViewModel HomeViewModel) {
         this.mHomeViewModel = HomeViewModel;
+        synchronized(this) {
+            mDirtyFlags |= 0x1L;
+        }
+        notifyPropertyChanged(BR.homeViewModel);
+        super.requestRebind();
     }
 
     @Override
@@ -88,10 +99,55 @@ public class ActivityHomeBindingImpl extends ActivityHomeBinding  {
             dirtyFlags = mDirtyFlags;
             mDirtyFlags = 0;
         }
+        com.trinity.basemvvm.ui.main.activity.home.HomeViewModel homeViewModel = mHomeViewModel;
         // batch finished
+        if ((dirtyFlags & 0x2L) != 0) {
+            // api target 1
+
+            this.btnLogin.setOnClickListener(mCallback6);
+            this.btnNewAccount.setOnClickListener(mCallback5);
+        }
     }
     // Listener Stub Implementations
     // callback impls
+    public final void _internalCallbackOnClick(int sourceId , android.view.View callbackArg_0) {
+        switch(sourceId) {
+            case 1: {
+                // localize variables for thread safety
+                // homeViewModel != null
+                boolean homeViewModelJavaLangObjectNull = false;
+                // homeViewModel
+                com.trinity.basemvvm.ui.main.activity.home.HomeViewModel homeViewModel = mHomeViewModel;
+
+
+
+                homeViewModelJavaLangObjectNull = (homeViewModel) != (null);
+                if (homeViewModelJavaLangObjectNull) {
+
+
+                    homeViewModel.onClickLogin();
+                }
+                break;
+            }
+            case 2: {
+                // localize variables for thread safety
+                // homeViewModel != null
+                boolean homeViewModelJavaLangObjectNull = false;
+                // homeViewModel
+                com.trinity.basemvvm.ui.main.activity.home.HomeViewModel homeViewModel = mHomeViewModel;
+
+
+
+                homeViewModelJavaLangObjectNull = (homeViewModel) != (null);
+                if (homeViewModelJavaLangObjectNull) {
+
+
+                    homeViewModel.onClickNewAccount();
+                }
+                break;
+            }
+        }
+    }
     // dirty flag
     private  long mDirtyFlags = 0xffffffffffffffffL;
     /* flag mapping
